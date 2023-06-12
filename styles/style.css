@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.image-container {
+    margin: 0 auto;
+    max-width: 500px;
+    height: 50vh;
+    background-color: green;
+    position: relative;
+    margin-top: 3rem;
+}
+
+button {
+    position: absolute;
+}
+
+button.next {
+    right: 0;
+    top: 50%;
+}
+
+button.previous {
+    left: 0;
+    top: 50%;
+}

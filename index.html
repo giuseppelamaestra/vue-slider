@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>carousel vue</title>
+</head>
+<body>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+<div id="app">
+    
+    <div class="image-container" v-for>
+
+        <img :src="images[activeIndex]" alt="">
+       
+        <button class="previous" @click="previousSlide(Index)">
+            ciao
+        </button>
+    
+        <button class="next" @click="nextSlide(Index)"> 
+            ciao
+        </button>
+        
+    </div>
+
+
+    
+    
+
+
+
+
+
+</div>
+
+
+    
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
