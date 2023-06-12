@@ -7,8 +7,8 @@
 div.image-container {
     margin: 0 auto;
     max-width: 500px;
-    height: 50vh;
-    background-color: green;
+    
+    
     position: relative;
     margin-top: 3rem;
 }
@@ -25,4 +25,9 @@ button.next {
 button.previous {
     left: 0;
     top: 50%;
+}
+
+img {
+    width: 100%;
+
 }
