@@ -15,15 +15,23 @@ div.image-container {
 
 button {
     position: absolute;
+   background-color: rgb(94, 212, 94);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+   border-radius: 10px;
+  font-size: 16px;
 }
 
 button.next {
-    right: 0;
+    right: -20%;
     top: 50%;
 }
 
 button.previous {
-    left: 0;
+    left: -20%;
     top: 50%;
 }
 
